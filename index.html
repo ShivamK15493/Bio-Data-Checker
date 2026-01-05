@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <title>Bio Data Checker</title>
+</head>
+<body>
+    <h1 align="center">Bio Data Checker</h1>
+    <h4 align="center">Please Fill all the information</h4>
+    <div class="biodatamain">
+    <table>
+        <tr><th>First Name:</th>
+            <td>
+                <input id="fnm" type="text" placeholder="First name"> 
+            </td></tr>
+        <tr><th>Last Name:</th>
+            <td>
+                <input id="lnm" type="text" placeholder="Last name">
+            </td></tr>
+        <tr><th>D.O.B</th>
+            <td>
+               <input id="dat" type="date">
+            </td></tr>
+        <tr><th>Gender:</th>
+            <td>
+                <div class="genderarea">
+                      <input type="radio" name="gender" value="Male"> Male <br>
+                      <input type="radio" name="gender" value="Female">Female
+                </div>      
+            </td></tr>
+            <tr><th>E-Mail</th>
+            <td>
+                <input id="mal" type="email" placeholder="E-Mail">
+            </td></tr>
+        <tr><th>Mobile No:</th><td>
+              <input id="phon" type="text" placeholder="Mobile No" maxlength="10">
+            </td></tr>
+        <tr><th>Address:</th><td>
+              <textarea type="text" id="addr" placeholder="Address.." rows="2" cols="21">
+                 
+              </textarea></td></tr>
+    </table>
+    </div>
+    <br>
+    <div class="buttonarea">
+        <div class="sub" onclick="check()">Submit</div>
+        <div class="re" onclick="reset()">
+                    Reset
+        </div>
+    </div>
+    <div class="biodataResult">
+          <table><tr><td>
+                    <div id="res">
+                       Output:
+                   </div></td></tr>
+          </table></div> 
+    <script src="style.js"></script>
+</body>
+</html>
