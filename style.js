@@ -47,8 +47,9 @@ function output()
     document.getElementById("res").style.display="block";    
        
 }
+let resett = document.getElementById("rese");
+  
+resett.addEventListener("click", function(){
 
-function reset()
-{
     location.reload();
-}
+})
