@@ -9,13 +9,15 @@ let space;
 
 let result,main;
 let name;
-function check()
+
+let check = document.getElementById("che");
+check.addEventListener("click",function()
 {
    name = document.getElementById("res");
    name.style.display="block";
    name.innerText="Checking...";
    setTimeout(validate,3000);
-}
+})
 
 function validate()
 {
@@ -53,3 +55,4 @@ resett.addEventListener("click", function(){
 
     location.reload();
 })
+
