@@ -6,7 +6,7 @@
 .biodatamain table
 {
     padding: 0.3rem;
-    border: 1px solid rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(6, 6, 6, 0.08);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
 }
 .biodatamain th
@@ -79,4 +79,5 @@ input
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
     display: none;
 }
+
 
