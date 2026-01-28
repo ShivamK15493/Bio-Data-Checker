@@ -1,15 +1,22 @@
+body
+{
+    background-color: rgb(227, 234, 240);
+}
 .biodatamain
 {
     display: flex;
     justify-content: center;
 }
-.biodatamain table
+.biodata
 {
-    padding: 0.3rem;
-    border: 1px solid rgba(6, 6, 6, 0.08);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+     background-color: white;
+     border-radius: 0.3rem;
 }
-.biodatamain th
+.biodata table
+{
+    padding: 1rem;
+}
+.biodata th
 {
     display: flex;
     align-items: center;
@@ -17,7 +24,7 @@
     height: 2rem;
     width: 10rem;
 }
-.biodatamain td
+.biodata td
 {
     width: 10rem;
 }
@@ -76,11 +83,13 @@ input
 {
     padding: 0.4rem;
     width: 21rem;
+    background-color: white;
     font-family: sans-serif;
     border: 1px solid rgba(0, 0, 0, 0.08);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
     display: none;
 }
+
 
 
 
